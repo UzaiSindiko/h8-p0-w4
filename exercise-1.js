@@ -1,6 +1,5 @@
 function angkaPrima(angka) {
-	var k = 0;
-	if (angka <= 0) {
+	if (angka < 2) {
 		return false;
 	}
 	for (var i = 2; i < angka; i++) {
@@ -10,7 +9,6 @@ function angkaPrima(angka) {
 		}
 	}
 	return true;
-	console.log('\n');
 }
 
 // TEST CASES
